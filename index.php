@@ -9,17 +9,17 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<form>
+<form method="POST" action="registrar.php">
   <div class="mb-3">
-    <label for="identificador" class="form-label">Identificador</label>
+    <label for="identificador" class="form-label">identificador</label>
     <input type="texto" class="form-control" id="identificador" name="identificador">
      </div>
      <div class="mb-3">
-    <label for="nombre" class="form-label">Nombre</label>
+    <label for="nombre" class="form-label">nombre</label>
     <input type="texto" class="form-control" id="nombre" name="nombre">
      </div>
      <div class="mb-3">
-    <label for="detalle" class="form-label">Detalle</label>
+    <label for="detalle" class="form-label">detalle</label>
     <input type="texto" class="form-control" id="detalle" name="detalle">
      </div>
   <button type="submit" class="btn btn-primary">Registrar</button>
